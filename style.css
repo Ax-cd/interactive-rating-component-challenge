@@ -42,10 +42,12 @@ body {
 }
 
 article {
+    border: 2px solid yellow;
     background-color: var(--dark-blue);
-    /* width: 33rem; */
+    width: 35rem;
+    /* height: 35rem; */
     padding: 2rem;
-    margin: 2rem;
+    /* margin: 5rem; */
     border-radius: 15px;
 }
 h2 {
@@ -59,26 +61,24 @@ h2 {
     flex-direction: column;
 }
 
-#star-icon { /*how to add background? => img disappear when setting width and height*/
+#star-icon { /* 17*16px how to add background? => img disappear when setting width and height*/
     /* border: 2px solid blue; */
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
     background-color: hsl(213, 19%, 18%);
     /* padding: 1rem; */
     /* margin: 2rem 0; */
 }
-.text {
+/* .text {
     margin: 2rem 0;
-}
+} */
 .rating-btns {
     /* border: 2px solid green; */
-    /* width: inherit; */
-    align-self: center;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    margin-bottom: 2rem;
-    /* margin: 0 0 2rem 0; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
 }
 .rating-btn {
     width: 4rem;
@@ -86,24 +86,20 @@ h2 {
     border-radius: 50%;
     border: none;
     background-color: hsl(215, 13%, 26%);
-    /* margin: 0.5rem 0.9rem; */
-    margin: 0 0.6rem;
 }
-.rating-btn:hover
+/* .rating-btn:hover
 .rating-btn:active
-.rating-btn:focus
+.rating-btn:focus */
 
 .submit-btn {
-    border: 2px solid red;
-    /* text-transform: capitalize; */
-    display: block;
+    border: none;
     border-radius: 20px;
     color: var(--white);
-    background-color: var(--orange);
-    align-self: center;
-    margin: 3rem 2rem;
+    text-transform: uppercase;
+    background: var(--orange);
+    padding: 1em;
 }
-.submit-btn:hover {
+.submit-btn:hover { /*add transition(?)*/
     color: var(--orange);
     background-color: var(--white);
 }
