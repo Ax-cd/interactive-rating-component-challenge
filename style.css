@@ -45,8 +45,11 @@ article {
     /* border: 2px solid yellow; */
     background-color: var(--dark-blue);
     width: 33.5rem;
+    height: 35rem;
     padding: 3rem 2rem 2rem;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 h2 {
     color: var(--white);
@@ -55,8 +58,8 @@ h2 {
 
 /* Rating state */
 #rating-state {
-    display: flex;
-    flex-direction: column;
+    display: none;
+    justify-content: space-between;
 }
 
 #star-icon { /* 17*16px how to add background? => img disappear when setting width and height*/
@@ -118,5 +121,24 @@ h2 {
 
 /* Thank you state */
 #thank-state {
-    display: none;
+    /* display: none; */
+    align-items: center;
+    justify-content: space-between;
+}
+.thank-img {
+    /* margin: 0.2rem; */
+    margin-bottom: 2rem;
+}
+.your-choice {
+    color: var(--orange);
+    background-color: hsl(215, 13%, 26%);
+    padding: 0.6rem 0.8rem 0.4rem;
+    border-radius: 20px;
+    /* margin-bottom: 1rem; */
+}
+.thank-text {
+    /* border: 2px solid pink; */
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
 }
