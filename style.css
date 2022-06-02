@@ -58,7 +58,6 @@ h2 {
 
 /* Rating state */
 #rating-state {
-    display: none;
     justify-content: space-between;
 }
 
@@ -121,7 +120,6 @@ h2 {
 
 /* Thank you state */
 #thank-state {
-    /* display: none; */
     align-items: center;
     justify-content: space-between;
 }
@@ -141,4 +139,9 @@ h2 {
     text-align: center;
     padding-bottom: 3rem;
     margin-top: 2rem;
+}
+
+/*display state*/
+.display {
+    display: none;
 }
