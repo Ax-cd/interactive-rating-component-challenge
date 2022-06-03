@@ -105,7 +105,7 @@ h2 {
     background-color: var(--light-grey);
 }
 
-.submit-btn {
+#submit-btn {
     border: none;
     border-radius: 20px;
     color: var(--white);
@@ -113,7 +113,7 @@ h2 {
     background: var(--orange);
     padding: 1em;
 }
-.submit-btn:hover { /*add transition(?)*/
+#submit-btn:hover { /*add transition(?)*/
     color: var(--orange);
     background-color: var(--white);
 }
