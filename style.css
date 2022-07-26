@@ -101,6 +101,7 @@ h2 {
     text-transform: uppercase;
     background: var(--orange);
     padding: 1em;
+    cursor: pointer;
 }
 #submit-btn:hover {
     color: var(--orange);
